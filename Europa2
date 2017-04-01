@@ -1,0 +1,12 @@
+# Europa
+# Designed to improve overall happiness
+
+from sys import argv
+
+script, filename, filename = argv
+
+good = open(filename)
+prompt = '> '
+
+print
+mood = raw_input(prompt)
