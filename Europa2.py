@@ -5,8 +5,8 @@ from sys import argv
 
 script, filename, filename2 = argv
 
-good = open(filename)
-bad = open(filename2)
+good = open(filename, 'r')
+bad = open(filename2, 'r')
 prompt = '> '
 
 print "Hi there my name is %s, What is yours?" % (script)
@@ -16,10 +16,11 @@ print "Pleased to meet you %s, how are you feeling today?" % (user_name)
 print "Good or Bad?"
 mood = raw_input(prompt)
 
+good_one = good.readline()
+bad_one = bad.readline()
+
 if mood == ("good"):
-    open("good", "w"),
-print good.read()
+    print good_one
 
 if mood == "bad":
-    with open(filename2) as b:
-        b.read()
+    print bad_one
