@@ -51,10 +51,11 @@ print "Here is a puzzle."
 
 # what variable is equal to:
 #  Dividing 50 / 2 = 25
-#  Multiplying 180 * 25 = 4500
-#  Subtracting 74 - 4500 = -4426
-#  Adding 35 + -4426 = -4391
+#  Multiplying 180 * 25
+#  Subtracting 74 - 4500
+#  Adding 35 + -4426
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
+
 
 # prints onto terminal "That becomes: -4391 Can you do it by hand?"
 print "That becomes: ", what, "Can you do it by hand?"
