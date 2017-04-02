@@ -1,0 +1,5 @@
+Things that I am interested in learning in python for Exercise 21:
+
+from (.ext file) import
+What [] brackets mean in python
+.getlogger
