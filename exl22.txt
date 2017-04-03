@@ -1,5 +1,104 @@
-Things that I am interested in learning in python for Exercise 21:
+Exercise 22: What Do You Know So Far?
 
-from (.ext file) import
-What [] brackets mean in python
-.getlogger
+**Exercise 0: The Set Up**
+Terminal
+  python:
+    opens python, displays version installed
+  quit():
+    exits python
+    mkdir:
+      makes directory folder in the folder that you are in
+    dir:
+      lists directories in current directory folder
+    cd:
+      changes directories
+    clear:
+      clears terminal
+
+**Exercise 1: A Good First Program**
+Editor
+  print:
+    prints string onto terminal
+  # -*- coding: utf-8 -*-:
+   fix to use unicode utf-8 in scripts
+
+**Exercise 2: Comments And Pound Characters**
+Editor
+  #: (octothorpe/pound/hash/mesh) comments out line
+
+**Exercise 3: Numbers and Math**
+Editor
+  +: (plus) addition
+  -: (minus) subtraction
+  /: (slash) division
+  *: (asterisk) multiplication
+  %: (percent) remainder (used as modulo/modulus)
+  <: less-than
+  >: greater-than
+  <=: less-than-equal
+  >=: greater-than-equal
+
+**Exercise 4: Variables and Names**
+Editor
+  _: underscore used in variables names
+  floating point: numbers with decimals
+  integer: numbers without decimals
+
+**Exercise 5: More Variables and Printing**
+Editor
+  %s: (string modulus) to put value for a string
+  %: (modulo) to provide value after the string
+  %d: (digits modulus) used for numbers
+  %r: (representation modulus) for raw data
+
+**Exercise 6: Strings and Text**
+Editor
+  ': single quote
+  ": double quote
+
+**Exercise 7: More Printing**
+Editor
+  +: used for joining strings without spaces
+  ,: used for joining strings with spaces
+
+**Exercise 8: Printing, Printing**
+Editor
+  True: Boolean value/keyword that doesn't need quotes
+  Falces: Boolean value/keyword that doesn't need quotes
+
+**Exercise 9: Printing, Printing, Printing**
+Editor
+  \: backspace, used to escape characters
+  \n: new line command
+  """: triple quotes to set off several lines of text
+
+**Exercise 10: What was that?**
+Editor
+  \\: to ecape a backslash within a string
+  \': to escape a single quote within a string
+  \": to escape a double quote within a string
+  \r: carriage return within a string
+  \t: tab within a string
+  ''': alternative method of using triple quotes
+
+**Exercise 11: Asking Questions**
+Editor
+  raw_input(): to get typed input from end user
+
+**Exercise 12: Prompting People**
+Editor
+  raw_input("Prompt text: "): Alternative way to put prompt in for raw_input
+    from user
+
+Terminal
+  pydoc: shell command for information on Python topics
+    find topic by typing python -m pydocs (open, file, os, sys or others..)
+
+**Exercise 13: Parameters, Unpacking, Variables**
+Editor
+  arguments: variable values provided by users
+  pass: sending info from arguments to variables
+  import: brings additional features into python
+  argv: argument variables
+  packing/unpacking values: to get info in and out of argv
+  module:
