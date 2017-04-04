@@ -101,4 +101,60 @@ Editor
   import: brings additional features into python
   argv: argument variables
   packing/unpacking values: to get info in and out of argv
-  module:
+  module: the name for collections of extra code that can be imported into
+          python (aka libraries)
+
+**Exercise 14: Prompting and Passing**
+Editor
+  prompt: A character or string that the scripter can specify to ask for info
+          from the end user
+
+**Exercise 15: Reading Files**
+Editor
+  open: makes a file available to python
+  .: dot operator to join a function (or command or method) to an object
+  .read: read the contents of a file
+  .close: close the file so it is no longer available to python
+
+**Exercise 16: reading and writing files**
+Editor
+  w: write mode
+  r: read mode
+  a: append mode
+  w+: write and read mode
+  r+: read and write mode
+  .truncate: delete contents of file
+  .write: write information to file
+  ;: semi-colon can separate commands on a single line
+  len(): command that returns the length of a string
+
+Terminal
+  pydoc import: for info on reporting
+
+**Exercise 17: More Files**
+Editor
+    os.path: a library that adapts the file/directory address to the specific
+    requirements of the operating system
+    exists: a function to determine whether a specific file exists; yields
+    a boolean True or False
+
+**Exercise 18: Names, Variables, Code, Functions
+Editor
+  def: to define custom functions
+  (*args): to refer to just list the arguments next to the function name)
+  : and indent: to set block for function
+
+**Exercise 19: Functions and Variables**
+
+                  N/A
+
+**Exercise 20: Functions and Files**
+Editor
+  .seek(): go to a specific position within a file(in bytes) .seek(0) goes to
+  the beginning
+  .readline: read one line from a file
+  +=: shortcut for incrementing a variable
+
+**Exercise 21: Funcations Can Return Something**
+Editor
+  return: a value that a function makes available for use in a variable
