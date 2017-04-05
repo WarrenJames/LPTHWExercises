@@ -153,7 +153,7 @@ Editor
   .seek(): go to a specific position within a file(in bytes) .seek(0) goes to
   the beginning
   .readline: read one line from a file
-  +=: shortcut for incrementing a variable
+  +=: shortcut for incrementing variables. var += 1 is the same as var = var + 1
 
 **Exercise 21: Funcations Can Return Something**
 Editor
