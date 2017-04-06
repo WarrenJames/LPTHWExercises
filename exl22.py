@@ -27,3 +27,7 @@ underscores_in_variables = 1337
 
 floatingPoint = 7.0 # numbers with decimals
 integer = 7 # numbers without decimals / whole numbers
+
+# **Exercise 5: More Variables and Printing**
+
+print "a %s modulus is to put value to a %s" % ('string', 'string')
