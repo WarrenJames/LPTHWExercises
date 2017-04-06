@@ -24,3 +24,6 @@ print 'print is to print a string onto the terminal'
 
 # **Excercise 4: Variables and Names**
 underscores_in_variables = 1337
+
+floatingPoint = 7.0 # numbers with decimals
+integer = 7 # numbers without decimals / whole numbers
