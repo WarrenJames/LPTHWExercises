@@ -64,11 +64,11 @@ Editor
 **Exercise 8: Printing, Printing**
 Editor
   True: Boolean value/keyword that doesn't need quotes
-  Falces: Boolean value/keyword that doesn't need quotes
+  False: Boolean value/keyword that doesn't need quotes
 
 **Exercise 9: Printing, Printing, Printing**
 Editor
-  \: backspace, used to escape characters
+  \: backslash, used to escape characters
   \n: new line command
   """: triple quotes to set off several lines of text
 
