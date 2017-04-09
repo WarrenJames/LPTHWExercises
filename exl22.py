@@ -1,6 +1,7 @@
 from sys import argv
 script, argVar = argv
 
+aFilein = test.txt
 # Exercise 22: What Do You Know So Far?
 
 # **Exercise 0: The Set Up**
@@ -25,7 +26,7 @@ print 'print is to print a string onto the terminal.'
 6 <= 24 # less-than-equal symbol
 10 >= 12 # greater-than-equal symbol
 
-# **Excercise 4: Variables and Names**
+# **Exercise 4: Variables and Names**
 underscores_in_variables = 1337
 
 floatingPoint = 7.0 # numbers with decimals
@@ -98,3 +99,14 @@ print """a prompt is a character or a string that the scripter can specify
 to ask for info from the end user"""
 
 # **Exercise 15: Reading Files**
+
+using = open(argVar) # makes a file available to python
+
+print using.read # dot operator to read the contents of the file.
+
+# **Exercise 16: Reading and writing Files**
+youCan = open(aFilein, 'w') # mode (write), 'r' read mode, 'a' append mode, w+
+# 'w+' write and read mode, or 'r+' read and write mode
+using.truncate # deletes the contents of the file
+using.write # is to write information to the file
+using.close # will close the file so it is no longer available

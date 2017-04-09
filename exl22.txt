@@ -116,7 +116,7 @@ Editor
   .read: read the contents of a file
   .close: close the file so it is no longer available to python
 
-**Exercise 16: reading and writing files**
+**Exercise 16: Reading and writing files**
 Editor
   w: write mode
   r: read mode
