@@ -155,6 +155,6 @@ Editor
   .readline: read one line from a file
   +=: shortcut for incrementing variables. var += 1 is the same as var = var + 1
 
-**Exercise 21: Funcations Can Return Something**
+**Exercise 21: Functions Can Return Something**
 Editor
   return: a value that a function makes available for use in a variable

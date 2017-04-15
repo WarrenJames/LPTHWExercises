@@ -1,7 +1,8 @@
 from sys import argv
-script, argVar = argv
+from os.path import exists
 
-aFilein = test.txt
+script, argVar, aFilein = argv
+
 # Exercise 22: What Do You Know So Far?
 
 # **Exercise 0: The Set Up**
@@ -110,3 +111,35 @@ youCan = open(aFilein, 'w') # mode (write), 'r' read mode, 'a' append mode, w+
 using.truncate # deletes the contents of the file
 using.write # is to write information to the file
 using.close # will close the file so it is no longer available
+
+# **Exercise 17: More files**
+print """os.path is a library that adapts the file/directory
+address to the specific requirments of the operating system. You can import the
+argument variable %s to see if a specific file exists; yields boolean true or
+false.""" % exists(argVar)
+
+# **Exercise 18: Names, Variables, Code, Functions
+def ine(function):
+    print """Functions let you name pieces of code the way variables name
+strings and numbers. They take arguments the way your scripts take argv
+they let you make your own %s or 'tiny commands'.""" % function
+
+# you can then call the function:
+ine('\'mini-scripts\'')
+
+# **Exercise 19: functions and Variables**
+
+#                N/A
+
+
+# **Exercise 20: Functions and Files**
+
+.seek(0)
+.readline
++=
+
+# **Exercise 21: Functions Can Return Something**
+
+def ining(Functions):
+    1 + 2
+    return
