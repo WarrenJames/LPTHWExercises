@@ -89,3 +89,30 @@ ministry = "The Ministry of Silly Walks"
 
 print len(ministry)
 print ministry.upper()
+
+print "Monty Python"
+
+the_machine_goes = "Ping!"
+print the_machine_goes
+
+# You are able to combine strings and arithmetic operators
+
+""" The + operator between strings will 'add' them together, one after the
+other. Notice that there are spaces inside of the quotation."""
+
+print "Spam " + "and " + "eggs."
+
+print "The value of pi is around " + str(3.14)
+
+""" When you want to print a variable with a string, there is a better
+methods than concatenating strings together.
+
+the %/ operator after a string is used to combine a string with variables
+with replace a %/s in the string with the string variable that comes after it
+
+"""
+
+my_string = "I found the length!"
+
+print len(my_string)
+print my_string.upper()
