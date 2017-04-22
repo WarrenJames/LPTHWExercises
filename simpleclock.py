@@ -4,7 +4,7 @@ now = datetime.now()
 
 def clock():
     while True:
-        print "%s/%s/%s" % (now.month, now.day, now.year)
-        print "%s:%s:%s" % (now.hour, now.minute, now.second)
+        print "%s%s%s%s%s%s\r" % (now.month, now.day, now.year, now.hour,
+        now.minute, now.second)
 
 print clock()
