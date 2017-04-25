@@ -35,3 +35,12 @@ def print_first_and_last_sorted(sentence):
   words = sort_sentence(sentence)
   print_first_word(words)
   print_last_word(words)
+
+"""
+
+change directory to where python file is and load python in terminal
+you can import script as module by typing "import exl25"
+python will create a 'python bytecode' or compiled python file which
+helps the module load faster in the future.
+
+"""
