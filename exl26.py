@@ -63,16 +63,35 @@ def print_first_and_last(sentence):
     print_first_word(words)
     print_last_word(words)
 
+"""
+define function print_first_and_last_sorted(with one argument): consists of
+words variable equals sort_sentence function with local variable as argument
+and calling print_first_word function and print_last_word function with words
+variable as argument
+"""
 def print_first_and_last_sorted(sentence):
     """Sorts the words then prints the first and last one."""
     words = sort_sentence(sentence)
     print_first_word(words)
     print_last_word(words)
 
+# words variable is equal to break_words function(sentence variable as argument)
 words = break_words(sentence)
+
+"""
+sorted_words variable is equal to sort_words function
+(words variable as argument)
+"""
 sorted_words = sort_words(words)
 
+# prints "Let's practice everything." onto terminal
 print "Let's practice everything."
+
+"""
+prints onto terminal:
+You'd neeed to know 'bout escapes with \ that do
+newlines and    tabs.
+"""
 print 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
 
 poem = """
