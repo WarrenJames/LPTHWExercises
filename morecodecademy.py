@@ -36,3 +36,17 @@ def greater_less_equal_5(answer):
 print greater_less_equal_5(4)
 print greater_less_equal_5(5)
 print greater_less_equal_5(6)
+
+"""
+define power(with two arguments): consists of
+result variable is equal to first argument to the power of second argument
+and prints "%\digit placeholder to the power of %\digit placeholder is
+%\digit placeholder" %\ placeholders are (first argument, second argument,
+and result variable)
+"""
+def power(base, exponent):
+    result = base**exponent
+    print "%d to the power of %d is %d." % (base, exponent, result)
+
+# calls power funtion with arguments as 37 and 4
+power(37,4)
