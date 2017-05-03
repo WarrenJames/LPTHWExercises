@@ -76,3 +76,14 @@ True and True # True
 not False # True
 23 > 24 # False
 True or False # True
+
+True # True
+not(False or True) # False
+23 >= 12 + 11 # True
+not(True or False) # False
+0 != 4 # True
+False or False # False
+not(False or False) # True
+90 <= 42 #  False
+False and True # False
+43 >= 32 and True # True
