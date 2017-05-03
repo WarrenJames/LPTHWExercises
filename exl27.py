@@ -53,3 +53,26 @@ not (False and False) # True
 1 <= 1 # True
 0 <= 1 # True
 0 <= 0 # True
+
+# Practice
+not(True and False) # True*
+35 >= 23 # True
+1 <= 4 # True
+147 == 162 # False
+47 != 14 # True
+True and False # False
+False and False # False
+False or True # True
+not(False and False) # True*
+37 > 34 and 40 < 8 # False
+
+"funeral" == "fun" # False
+57 - 34 >= 12 + 16  # False
+not(32 > 19 and 29 != 14) # False
+not(False and True) # True
+False and True # False
+49 + 32 <= 54 # False
+True and True # True
+not False # True
+23 > 24 # False
+True or False # True
