@@ -87,3 +87,14 @@ not(False or False) # True
 90 <= 42 #  False
 False and True # False
 43 >= 32 and True # True
+
+"pending" == "pending" # True
+False and True # False
+True or True # True
+43 <= 33 # False
+False or True # True
+0 - 2 == (-2 + 2) # False
+not True # False
+False or False # False
+12 >= 43 # False
+not (False and True) # True
