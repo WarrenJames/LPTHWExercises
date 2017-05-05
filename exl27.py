@@ -97,4 +97,16 @@ False or True # True
 not True # False
 False or False # False
 12 >= 43 # False
-not (False and True) # True
+not(False and True) # True
+
+True and False # False
+34 >= 22 or 23 - 12 == 11 # True
+not False # True
+True or True # True
+312 != 32 or 32 * 4 <= 12**2  # True
+not(False and True) # True
+34 == 10 + 24 or 2 + 10 <= 14 - 2 # True
+not(True or False) # False
+False or False # False
+True and 12 >= 10 # True
+15 >= 16 and 43 <= 54 # False
