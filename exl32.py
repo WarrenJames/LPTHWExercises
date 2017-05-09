@@ -46,3 +46,5 @@ for i in range(0, 6):
 # for item in elements variable: print element was: (list item)
 for i in elements:
     print "Element was: %d" % i
+
+# each for-loop would loop through until list or range is finished
