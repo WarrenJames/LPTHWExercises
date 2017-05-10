@@ -24,9 +24,7 @@ bad_one = bad.readline()
 
 if mood == ("good"):
     print good_one
-
-if mood == ("bad"):
+elif mood == ("bad"):
     print bad_one
-
 else:
     print "wrong input"

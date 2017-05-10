@@ -62,3 +62,14 @@ else, print onto terminal:
 
 """else, print onto terminal
 'You stumble around and fall on a knife and die. Good job!' """
+
+print "You're now in the afterlife, All you see is black. Is it heaven or hell?"
+
+afterlife = raw_input("> ")
+
+if afterlife == "heaven":
+    print "You rub your eyes and when your vision clears, all you see is fire."
+elif afterlife == "hell":
+    print "Prepare for the pineapples."
+else:
+    print "You go to hell anyway."
