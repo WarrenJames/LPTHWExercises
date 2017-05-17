@@ -1,12 +1,19 @@
 from sys import exit
 
-def gold_room():
-    print "This room is full of gold. How much do you take?"
 
+# define gold_room function with no arguments, consists of:
+
+def gold_room():
+    # prints onto terminal string of text.
+    print "This room is full of gold. How much do you take?"
+    # choice variable is equal to raw_input with "> " as a user prompt
     choice = raw_input("> ")
+    # if "0" is in choice variable or 1 is in choice variable then:
     if  "0" in choice or "1" in choice:
+        # how_much variable is equal to returning a integer from choice variable
         how_much = int(choice)
     else:
+        # else: call dead function w/ "Man, Learn to type a number." as argument
         dead("Man, learn to type a number.")
 
     if how_much < 50:
@@ -40,4 +47,33 @@ def bear_room():
 
 def cthulhu_room():
     print "Here you see the great evil Cthulhu."
-    
+    print "He, it, whatever stares at you and you go insane."
+    print "Do you flee for your life or eat your head?"
+
+    choice = raw_input("> ")
+    if "flee" in choice:
+        start()
+    elif "head" in  choice:
+        dead("Well that was tasty!")
+    else:
+        cthulhu_room()
+
+def dead(why):
+    print why, "Good job!"
+    exit(0)
+
+def start():
+    print "You are in a dark room."
+    print "There is a door to your right and left."
+    print "Which one do you take?"
+
+    choice = raw_input("> ")
+
+    if choice == "left":
+        bear_room()
+    elif choice == "right":
+        cthulhu_room()
+    else:
+        dead("You stumble around the room until you starve.")
+
+start()
