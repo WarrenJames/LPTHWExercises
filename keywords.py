@@ -87,6 +87,8 @@ class ExampleClass:
     def function2():
         print pie
 
+# called like a module as ExampleClass.function()
+
 # ----- continue -----
 
 """
@@ -101,6 +103,85 @@ for i in range(1, 11): # loop intends to print numbers from 1 to 10
     print i # and the loop prints numbers 1 through 5, skips 6,
             # and continues printing numbers 7 through 10.
 
+# ----- def -----
+
+"""
+def is used to define a a user-defined function.
+a Function is a block of rlated statements, which together does some specific
+task. It helps organize code into manageable chunks and also to do some
+repetative tasks.
+
+Examples:
+"""
+def multiply(a, b):
+    return a * b
+
+# called as:
+multiply(1, 10)
+
+# ---- del ----
+
+"""
+del is used to delete the reference to an object.
+Everything is an object in Python.
+
+Examples:
+"""
+
+delvar = 10
+dellist = ['1', '2', '3', '4', '5']
+
+del delvar # deletes the variable delvar
+del dellist[3:6] # deletes items in a list in places 1 and stops at 6
+
+
+for i in dellist: # for-loop will only print numbers 1, 2, 3
+    print i
+
+# ----- elif -----
+
+"""
+elif is used along with if, and else for conditional branching or decision making
+
+When we want to test a condition and execute a block only if the condition is true,
+then we use if and elif. elif is short for 'ELSE IF'.
+
+
+Examples:
+"""
+
+def elifEx(a):
+    if a == 1:
+        print "One"
+    elif a == 2:
+        print "Two"
+    elif a == 3:
+        print "Three"
+    else:
+        print "Different number entered"
+
+elifEx(2)
+
+# ----- else -----
+
+"""
+
+else is the block which is executed if the condition is false.
+
+Examples:
+"""
+
+def elEx():
+
+    a = raw_input("> ")
+    if a == "Sith":
+        print "You have joined the Darkside."
+    else:
+        print "Traitor!"
+
+print "Jedi or Sith?"
+
+elEx()
 
 # ----- not -----
 
