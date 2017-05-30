@@ -21,9 +21,15 @@ while num <= 3:
 while racestart > 0:
     print "%d!" % racestart
     racestart -= 1
-    
+
 # functions
 def div(a, b):
     print "%d / %d is equal to:" % (a, b), a / b
 
 div(50, 10)
+
+def multi(a, b):
+    print "%d * %d is equal to:" % (a, b)
+    return a * b
+
+print multi(10, 5)
