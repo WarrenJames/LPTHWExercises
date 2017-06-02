@@ -1,0 +1,15 @@
+06/01/2017
+__________
+
+import os
+- this module provides a portable way of using operating system dependent
+- functionality. (using Linux/Windows/ or Mac OS X functionality)
+
+os.name
+- name of operating system
+- windows is "nt"
+- linux is "posix"
+
+
+os.system("command as a string")
+- executes the command as a string in a subshell. 

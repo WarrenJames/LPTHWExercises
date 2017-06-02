@@ -1,5 +1,6 @@
 # Exercise 38: Doing things to Lists
 
+import random
 # creates variable with string of text "Apples Oranges Crows Telephone Light Sugar"
 ten_things = "Apples Oranges Crows Telephone Light Sugar"
 
@@ -48,3 +49,15 @@ print ' '.join(stuff)
 # prints '#'.join(stuff[3:5]) or joins items from stuff variable that are from
 # spot 3 to (but not including) 5. or Telephone#Light
 print '#'.join(stuff[3:5])
+
+
+itemlist = ['alpha', 'bravo', 'charlie', 'apple']
+
+def loopy(items):
+    for i in items:
+        if i[0] == 'a':
+            continue
+        else:
+            print i
+
+loopy(itemlist)
