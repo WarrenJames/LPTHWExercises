@@ -1,0 +1,72 @@
+_____________LEARN GIT_____________
+################################
+################################
+ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞
+______________STAGES_______________
+Thought of in 3 parts.
+
+Working Directory
+  - Make changes to files:
+    + additions
+    - deletions
+      modifications/organization
+
+Staging Area
+  - where you'll list changes you made to working directory
+
+Repository
+  - permanently stores those changes as different versions of the project
+
+__________BASIC COMMANDS___________
+
+git init
+  - init means initialize. The command sets up all the tools Git needs to begin
+    tracking changes made to the project.
+  - creates git project
+
+git status
+  - untracked files means that git sees the file but has not started tracking
+    changes yet.
+
+git add (enter filename here)
+  - after adding file, you'll see git status changes to be commited in Green
+    text, Here git tells us the file was added to the staging area.
+  - make changes to multiple files with git add (enter filename here) (enter filename here)
+
+git diff (enter filename here)
+  - use to check any changes that have been tracked with file.
+  - changes to file are marked with a + and indicated in Green
+    or with a - and indicated in redefined
+  - IMPORTANT: press q on your keyboard to exit diff mode.
+
+git commit -m
+  - permanently stores changes from the staging area inside the repository
+  - use option -m followed by a message: message must be in quotation marks
+    written in the present tense, and should be brief (50 characters or less)
+
+git log
+  - you can refer back to earlier versions of a project using git log
+  - commits are stored chronologically in the repository
+  - output shows 40-character code called SHA that uniquely identifies the
+    commit in orange. the commit author, the date and time of commit, and message.
+
+git show HEAD
+  - most recently made commit is HEAD commit.
+
+____________RESTORATION____________
+
+git checkout HEAD (enter filename here)
+  - restores the file in working directory to look exactly as it did
+    when you last made a commit.
+
+git reset HEAD (enter filename here)
+  - used to unstage a file from the staging area
+  - resets the file in the staging area to be the same as the HEAD commit
+  - does not remove from working directory
+
+git reset (Enter first 7 characters of SHA here)
+  - you can reset back a file to a particular commit if you need to backtrack
+    by multiple commits.
+  - remember to look on git log to find SHA codes
+
+___________GIT BRANCHING___________

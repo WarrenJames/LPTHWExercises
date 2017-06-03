@@ -12,4 +12,8 @@ os.name
 
 
 os.system("command as a string")
-- executes the command as a string in a subshell. 
+- executes the command as a string in a subshell.
+
+- os.system("cls" if os.name == "nt" else "clear") executes command cls in shell
+- if os.name is equal to nt (windows) if it returns anything else it uses
+- command "clear"

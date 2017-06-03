@@ -1,4 +1,4 @@
-# ----- and -----
+----- and -----
 
 """
 and, or, not are logical operators. and will result into True only if both the
