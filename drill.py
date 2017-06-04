@@ -95,13 +95,26 @@ numbers[::-1]
 # numbers would now be [10, 9, 8, 7]
 numbers[-1:-5:-1]
 
-# since strings are immutable we cannot added/change/remove any members without
-# creating a whole new string.
-
 rainbow = ["red", "orange", "green", "yellow", "blue", "black", "white",
 "aqua", "purple", "pink"]
 
+# since strings are immutable we cannot added/change/remove any members without
+# creating a whole new string.
 
+# deletes items in cardinal spots 5 through 7
+# rainbow now consists of ["red", "orange", "green", "yellow", "blue", "purple", "pink"]
+del rainbow[5:8]
+
+# You are able to replace  slices with different items in list
+# rainbow now consists of:
+# ["red", "orange", "yellow", "green", "blue", "purple", "pink"]
+
+rainbow[2:4] = ["yellow", "green"]
+
+# or just enter single items into the list
+# rainbow now consists of:
+# ["red", "orange", "yellow", "green", "blue", "indigo", "purple", "pink"]
+rainbow[4:5] = ["blue", "indigo"]
 
 # ----- for-loops -----
 for color in rgb:
