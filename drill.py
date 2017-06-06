@@ -116,6 +116,41 @@ rainbow[2:4] = ["yellow", "green"]
 # ["red", "orange", "yellow", "green", "blue", "indigo", "purple", "pink"]
 rainbow[4:5] = ["blue", "indigo"]
 
+# you can also remove/replace items
+# rainbow now consists of:
+# ["red", "orange", "yellow", "green", "blue", "indigo", "voilet"]
+rainbow[-2:] = ["voilet"]
+
+# you can also join parts of a list
+
+# rainbow now consists of:
+# ["red", "orange", "yellow", "green", "blue", "indigo", "voilet", "b", "l", "u", "e"]
+rainbow.extend("blue")
+
+# rainbow (fourth array from end onward) equals list item joining with dot operand
+# the rainbow list spots from fourth array from end onward.
+# rainbow now consists of:
+
+# ["red", "orange", "yellow", "green", "blue", "indigo", "voilet", "blue"]
+rainbow[-4:] = ["".join(rainbow[-4:])]
+
+# ----- dictionaries -----
+
+di = {"name": "James", "health": 100, "favorite foods":["Sushi", "Burritos", "Pizza", "Hawaiian"]}
+
+di.update({"allergic":"bananas"})
+
+# just like lists, dictionaries/dicts have .pop(). it'll return the key's value
+# to you and then delete the key.
+
+di.pop("allergic")
+
+# similar to .pop() but instead of returning just the value
+# returns you a tupe with a key and the value. also this doesn't
+# take any arguments, you get a random key/value pair.
+di.popitem()
+
+
 # ----- for-loops -----
 for color in rgb:
     print color
