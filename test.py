@@ -48,6 +48,8 @@ di.update({"allergic":"bananas"})
 
 print di
 di.pop("allergic")
+
+
 print di
 # clears dictionary
 di.clear()

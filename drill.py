@@ -136,15 +136,24 @@ rainbow[-4:] = ["".join(rainbow[-4:])]
 
 # ----- dictionaries -----
 
-di = {"name": "James", "health": 100, "favorite foods":["Sushi", "Burritos", "Pizza", "Hawaiian"]}
+# di variable is equal to dictionary consisting of
+# "name" key is: "James", "health" key is: 100, "favorite foods" key is:
+# a list consisting of ["Sushi", "Burritos", "Pizza", "Hawaiian"]
+di = {"name": "James", "health": 100,"favorite foods":["Sushi", "Burritos", "Pizza", "Hawaiian"]}
 
+# diIndi variable equals dictionary consisting of:
+# metal key is: dictionary consisting of: death key is: "core"
+diIndi = {"metal": {"death":"core"}, "hip": "hop"}
+
+# calls update function on di variable's dictionary to add in dictionary
+# consisting of {"allergic" key is: "bananas"}
 di.update({"allergic":"bananas"})
 
-# just like lists, dictionaries/dicts have .pop(). it'll return the key's value
-# to you and then delete the key.
-
+# pops the allergic key from di and returns the key's value to you and then
+# deletes the key. popped
 di.pop("allergic")
 
+del diIndi["hip"]
 # similar to .pop() but instead of returning just the value
 # returns you a tupe with a key and the value. also this doesn't
 # take any arguments, you get a random key/value pair.
