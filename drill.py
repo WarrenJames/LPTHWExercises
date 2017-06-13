@@ -155,9 +155,10 @@ di.pop("allergic")
 
 del diIndi["hip"]
 # similar to .pop() but instead of returning just the value
-# returns you a tupe with a key and the value. also this doesn't
+# returns you a tupe ('dictkey', dictentry)with a key and the value. also this doesn't
 # take any arguments, you get a random key/value pair.
 di.popitem()
+
 
 
 # ----- for-loops -----

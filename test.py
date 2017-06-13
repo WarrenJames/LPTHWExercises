@@ -42,14 +42,50 @@
 #     print("BYE!")
 #     sys.exit()
 
-di = {"name": "James", "health": 100, "favorite foods":["Sushi", "Burritos", "Pizza", "Hawaiian"]}
+# di = {"name": "James", "health": 100, "favorite foods":["Sushi", "Burritos", "Pizza", "Hawaiian"]}
+#
+# di.update({"allergic":"bananas"})
+#
+# print di
+# di.pop("allergic")
+#
+#
+# print di
+# # clears dictionary
+# di.clear()
+# defines function word_count(single argument): consists of
+# E.g. word_count("I do not like it Sam I Am") gets back a dictionary like:
+# {'i': 2, 'do': 1, 'it': 1, 'sam': 1, 'like': 1, 'not': 1, 'am': 1}
+# Lowercase the string to make it easier.
+# def word_count(b):
+#     di = {}
+#     count = 0
+#     bw = b.split(' ')
+#     for w in bw:
+#         if w in di:
+#             count += 1
+#             di.update({w: count})
+#         else:
+#             count = 1
+#             di.update({w: count})
+#     return di # needs to return a dictionary.
+# word_count("abc acb ab a bc cb ca b c b a bd bc b ")
+# # keys in dictionary will be each of the word in the string
 
-di.update({"allergic":"bananas"})
+# E.g. word_count("I do not like it Sam I Am") gets back a dictionary like:
+# {'i': 2, 'do': 1, 'it': 1, 'sam': 1, 'like': 1, 'not': 1, 'am': 1}
+# Lowercase the string to make it easier.
+def word_count(a):
+    key = a.lower().split(' ')
+    count = 0
+    redict = {}
+    for k in key:
+       if k in redict:
+        count += 1
+        redict.update({k: count})
+       else:
+        count = 1
+        redict.update({k: count})
+    print redict
 
-print di
-di.pop("allergic")
-
-
-print di
-# clears dictionary
-di.clear()
+word_count("yes yEs yes no no yes no")

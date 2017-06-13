@@ -59,5 +59,29 @@
 # player = {"weapons": {"sword": True, "bow": False, "stick": False}}
 #
 # print player["weapons"]["sword"]
-test_dict = {"a": 1, "b": 2, "a": 3}
-print test_dict["a"]
+# test_dict = {"a": 1, "b": 2, "a": 3}
+# print test_dict["a"]
+# di = {"name": "James", "health": 100,"favorite foods":["Sushi", "Burritos", "Pizza", "Hawaiian"]}
+# meow = di.popitem()
+# print meow
+
+# **packs any key word arguments into dict
+def packer(**kwargs):
+    print kwargs
+
+packer(name="james", num=24, si=None)
+
+# calls function packer2 specifying
+# prints {'num': 24, 'si': None}
+def packer2(name= None,**kwargs):
+    print kwargs
+
+packer(name="james", num=24, si=None)
+
+def unpacker(firstname=None, lastname=None):
+    if firstname and lastname:
+        print "Welcome %s %s" % (firstname, lastname)
+    else:
+        print "Welcome Guest"
+
+unpacker(**{'firstname': "James", 'lastname': "Warren"})
